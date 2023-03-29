@@ -76,7 +76,7 @@ a();
 //11,1,un,11,1
 
 // long running function
-function waitThreeSeconds() {
+/*function waitThreeSeconds() {
     var ms = 3000 + new Date().getTime();
     while (new Date() < ms){}
     console.log('finished function');
@@ -91,5 +91,5 @@ document.addEventListener('click', clickHandler);
 
 
 waitThreeSeconds();
-console.log('finished execution');
+console.log('finished execution');*/
 
